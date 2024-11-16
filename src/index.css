@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.Accordion-Div {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  padding: 30px 10px;
+  border-radius: 10px;
+  margin: 0px 40px;
+}
+
+.Accordion-Div h1 {
+  font-size: 30px;
+  color: blue;
+}
+
+.Accordion-Div p {
+  font-size: 18px;
+  max-width: 600px;
+  text-align: start;
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.section {
+  min-width: 700px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-title {
+  width: 100%;
+  background: #f4f4f4;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.section-content {
+  width: 100%;
+  /* background: red; */
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
